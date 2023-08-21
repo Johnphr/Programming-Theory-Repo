@@ -19,11 +19,6 @@ public class PlayerController : MonoBehaviour
         rightDeviation = Quaternion.Euler(0, 0, -10);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     // Instantiates a Projectile
     public static void Shoot(GameObject projectilePrefab, bool burst)
     {

@@ -358,6 +358,9 @@
 "Assets/Scripts/MainClasses/InputManager.cs"
 "Assets/Scripts/MainClasses/PlayerController.cs"
 "Assets/Scripts/MainClasses/Projectile.cs"
+"Assets/Scripts/MainClasses/SpawnManager.cs"
+"Assets/Scripts/UI/SceneController.cs"
+"Assets/Scripts/UI/ScoreManager.cs"
 -langversion:9.0
 
 /deterministic

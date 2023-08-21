@@ -37,6 +37,7 @@ public abstract class Projectile : MonoBehaviour
         if (enemy.CurHealth <= 0)
         {
             Destroy(other.gameObject);
+            ScoreManager.UpdateScore();
         }
     }
 }
